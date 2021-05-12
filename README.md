@@ -1,21 +1,23 @@
-# url-shortener
-Make short link by using GPlink API key
+# GPLinksBot 🔥
+Make short link by using [GPlink](https://gplinks.in/) API key
+### Installation
 
-Installation
-The Easy Way
-Deploy
+#### The Easy Way
 
-Try GPLinks PHP Bot (Some Are getting Error In This Repo So Use PHP Repo. If You Are Getting Error)
-https://github.com/Ayushjaiswal1020/url-shortener
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy)
 
-Required Variables
-BOT_TOKEN: Create a bot using @BotFather, and get the Telegram API token.
+## Try GPLinks PHP Bot (Some Are getting Error In This Repo So Use PHP Repo. If You Are Getting Error)
 
-API_ID: Get this value from telgram.org Or By Telegram Bot TgApiextractorBot
 
-API_HASH: Get this value from telgram.org
+##### Required Variables
 
-API_KEY: Create GPlink account then get this value from GPlink API
+* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 
-Credit
-Me Ayush Jaiswal Editing This Repo
+* `API_ID`: Get this value from [telgram.org](https://my.telegram.org/apps) Or By Telegram Bot [TgApiextractorBot](https://telegram.dog/TgApiextractorBot)
+* `API_HASH`: Get this value from [telgram.org](https://my.telegram.org/apps)
+* `API_KEY`: Create [Earnspaces](https://earnspaces.com/Ayushdesign.html) account then get this value from [GPlink API](https://gplinks.in/member/tools/api)
+
+##### Credit
+* [Mahesh Bhai](https://github.com/Mahesh0253) For His Repo
+* [Me Ayush Jaisw](https://github.com/Ayushjaiswal1020) Editing This Repo
+
