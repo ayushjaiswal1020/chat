@@ -1,0 +1,40 @@
+{
+    "name": "Earnspaces_Bot",
+    "description": "Make short link by using Earnspaces API key",
+    "keywords": [
+        "telegram",
+        "Earnspaces"
+    ],
+    "website": "https://github.com/ayushjaiswal1020/url-shortener",
+    "repository": "https://github.com/ayushjaiswal1020/url-shortener",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_KEY": {
+            "description": "Get API key from https://earnspaces.com/member/tools/api",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
