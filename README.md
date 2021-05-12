@@ -1,5 +1,5 @@
 # EarnspacesBot 🔥
-Make short link by using [GPlink](https://earnspaces.com/Ayushdesin.html) API key
+Make short link by using [Earnspaces](https://earnspaces.com/Ayushdesign.html) API key
 ### Installation
 
 #### The Easy Way
@@ -15,7 +15,7 @@ Make short link by using [GPlink](https://earnspaces.com/Ayushdesin.html) API ke
 
 * `API_ID`: Get this value from [telgram.org](https://my.telegram.org/apps) Or By Telegram Bot [TgApiextractorBot](https://telegram.dog/TgApiextractorBot)
 * `API_HASH`: Get this value from [telgram.org](https://my.telegram.org/apps)
-* `API_KEY`: Create [Earnspaces](https://earnspaces.com/Ayushdesign.html) account then get this value from [GPlink API](https://gplinks.in/member/tools/api)
+* `API_KEY`: Create [Earnspaces](https://earnspaces.com/Ayushdesign.html) account then get this value from [Earnspaces API](https://earnspaces.com/member/tools/api)
 
 ##### Credit
 * [Mahesh Bhai](https://github.com/Mahesh0253) For His Repo
