@@ -1,5 +1,5 @@
-# GPLinksBot 🔥
-Make short link by using [GPlink](https://gplinks.in/) API key
+# EarnspacesBot 🔥
+Make short link by using [GPlink](https://earnspaces.com/Ayushdesin.html) API key
 ### Installation
 
 #### The Easy Way
