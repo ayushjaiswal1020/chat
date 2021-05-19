@@ -34,7 +34,7 @@ async def _(event):
     start = datetime.now()
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    await asst.send_message(
+    await message.reply(
         event.chat_id,
         f"**Pong!!**\n `{ms}ms`",
     )
