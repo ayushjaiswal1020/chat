@@ -22,11 +22,6 @@ async def start(bot, message):
               "You can contact my boss using this bot!! \n\n Send your Message, I will Deliver it to my Boss.")
 
 
-from datetime import datetime
-from os import environ
-import aiohttp
-from pyrogram import Client, filters
-
 
 @asst.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
 async def on_new_mssg(event):
