@@ -28,16 +28,20 @@ import aiohttp
 from pyrogram import Client, filters
 
 
-@bot.on_message(filters.command('ping') & filters.private)
-
-async def _(event):
-    start = datetime.now()
-    end = datetime.now()
-    ms = (end - start).microseconds / 1000
-    await message.reply(
-        event.chat_id,
-        f"**Pong!!**\n `{ms}ms`",
-    )
+@asst.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
+async def on_new_mssg(event):
+    incoming = event.raw_text
+    who = event.sender_id
+    if is_blacklisted(who):
+        return
+    # doesn't reply to that user anymore
+    if incoming.startswith("/"):
+        pass
+    elif who == 997822204:
+        return
+    else:
+        xx = await event.forward_to(997822204)
+        udB.set(str(xx.id), str(who))
 
 
 bot.run()
