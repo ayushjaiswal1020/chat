@@ -16,7 +16,7 @@ bot = Client('gplink bot',
              sleep_threshold=10)
 
 
-@bot.on_message(filters.command('starts') & filters.private)
+@bot.on_message(filters.command('sarts') & filters.private)
 async def start(bot, message):
     await message.reply(
          f"**Hey there {message.chat.first_name}, this is Assistant of MJBhai!**\n\n"
